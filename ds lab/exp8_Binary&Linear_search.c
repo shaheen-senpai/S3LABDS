@@ -8,6 +8,7 @@ void main()
 
     void linear_search(int search_key,int array[100],int n);
     void binary_search(int search_key,int array[100],int n);
+    void bubble_sort(int array[100],int n);
 
     printf("ENTER THE SIZE OF THE ARRAY:");
     scanf("%d",&n);
@@ -43,6 +44,27 @@ void main()
     
 }
 
+void bubble_sort(int array[100],int n)
+{
+    for(int i=1;i<=n;i++){
+     for(int j=1;j<=n-1;j++)
+      {
+        if(array[j+1]<array[j])
+         {
+           int temp =array[j];
+           array[j]=array[j+1];
+           array[j+1]=temp;
+         } 
+  }  }
+     
+    printf("sorted array is :");
+    for(int i=1;i<=n;i++)
+      printf("%d ",array[i]);
+    printf("\n");  
+}
+
+
+
 /* LINEAR SEARCH */
     void linear_search(int search_key,int array[100],int n)
     {
@@ -58,8 +80,10 @@ void main()
         }
     }
 }
+
+/* BINARY SEARCH */
 void binary_search(int search_key,int array[100],int n)
-{
+{   bubble_sort( array, n );
     int mid,i,low,high;
     low = 1;
     high = n;
@@ -85,3 +109,4 @@ void binary_search(int search_key,int array[100],int n)
     printf("Search_Key=%d Found!\n",search_key);
     printf("__________________________________\n");
 }
+
