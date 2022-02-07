@@ -1,0 +1,74 @@
+1) Write a Java program to check whether a given number is prime or not.
+2) Write a Java program to find the second smallest element in an array.
+3) Write a Java program to multiply two given matrices.
+4) Write a Java program to display the transpose of a given matrix.
+5) Write a Java Program to find the frequency of a given character in a string.
+6) Write a Java program to reverse a given string.
+7) Java program to sort an array of strings in alphabetical order.
+8) Write a Java program that checks whether a given string is a palindrome or not.
+Ex: MALAYALAM is palindrome.
+
+9) Write a Java program to calculate the area of different shapes namely circle, rectangle and triangle using the concept of method overloading.
+
+10) Write a Java program to display the features of Java (Simple, Object-Oriented,Distributed, Robust, Secure, Portable, Multithreaded, Dynamic)
+in below format, by using commandline arguments 
+Ex: 1. Java is Simple
+       2. Java is Object-Oriented
+
+11) Write a Java program to find the perimeter of two rectangles using constructors.
+(Use default constructor as well as parameterized constructor to initialize the value of length and breadth of the two rectangles.)
+
+12) Write a menu driven program to manipulate a string using StringBuffer class as below:
+- To insert a string into another string at a given position.
+- To modify character at a given position
+- To append a string at the end
+
+13) Write two Java classes Employee and Engineer. Engineer should inherit from Employee class. Employee class to have two methods display() and calcSalary(). 
+Write a program to display the engineer salary and to display from Employee class using a single object instantiation(i.e; only one object creation is allowed)
+• display() only prints the name of the name of the class and does not return any value. Ex. " Name of class is
+Employee".
+• calcSalary() in Employee displays "Salary of employee is 10000" and calcSalary() in Engineer displays "Salary
+of employee is 20000".
+
+14) Write a Java program which creates a class named 'Employee' having the following
+members: Name, Age, Phone number, Address,Salary. It also has a method named 'printSalary( )' which prints the salary of the Employee.
+Two classes 'Officer' and 'Manager' inherits the 'Employee' class. The 'Officer' and 'Manager' classes have data members 'specialization' and 'department' respectively. 
+Now, assign name, age, phone number, address and salary to an officer and a manager by making an object of both of these classes and print the same.
+
+15) Write a java program to create an abstract class named Shape that contains an empty method named numberOfSides( ). 
+Provide three classes named Rectangle, Triangle and Hexagon such that each one of the classes extends the class Shape. 
+Each one of the classes contains only the method numberOfSides( ) that shows the number of sides in the given geometrical structures.
+
+16) Write a Java program to implement an interface. 
+Create a class that implements
+the CharSequence interface found in java.lang package. The implementation should return the string backwards. 
+Make sure to call all four methods char charAt(int index), int length(), CharSequence subSequence(int start, int end) and String toString() which returns a string containing the characters in this sequence in the same order as this sequence. 
+
+17)  Write a Java program to illustrate Multiple inheritance. 
+
+ Create an interface Sports which contains an interface variable sportWt set to value 6 and an abstract
+ method putWt(). 
+ Create a class Student having member variable rollNumber and two methods getNumber(int n)
+ and putNumber() to read and display the rollNumber respectively.
+ Create a class Test as the subclass of Student.
+ It should contain two member variables part1 and part2 to hold the marks for each term. 
+ It should also contain methods getMarks(float m1,float m2) and putMarks() to read and display the marks obtained for part1 and part2. 
+
+ Create a class Results which derives the features of Test class and Sports interface. This class should display
+ the sportWt and should have a display() method to display the total marks( calculated as total= part1+part2+sportWt) in below format: 
+
+RollNo:1234 
+Marks Obtained 
+Part1=27.5 
+Part2=33 
+SportsWt = 6 
+Total Score=66.5 
+
+18) Write a Java program to demonstrate the use of garbage collector.
+19) Write a Java program that shows the usage of try, catch, throws and finally.
+20) Write a Java program that shows how to create a user-defined exception.
+21) Write a Java program that reads from a file and writes to a file by handling all file related exceptions.(Using FileInputStream and FileOutputStream classes)
+22) Write a Java program that reads a line of integers, and then displays each integer, and the sum of all the integers (Use String Tokenizer class of java.util).
+
+23) Write a Java program that reads a file and displays the file on the screen, with a line number before each line.
+24) Write a Java program with reader/writer class that displays the number of characters, lines and words in a text file.

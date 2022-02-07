@@ -1,0 +1,27 @@
+1. Polynomial Addition
+
+2. Sparse Matrix
+
+3. Circular queue
+
+4. Queue using array
+
+5. Stack using array
+
+6. Priority Queue
+
+7. Infix to Postfix
+
+8. Linear Search & Binary Search
+
+9. Stack and Queue using linked list
+
+10. Polynomial multiplication using linked list
+
+11. Binary tree creation and traversals for a given expression
+
+12. Graph – Depth First Search and Breadth First Search (for 31/01/2022 & 01/02/2022 lab hrs)
+
+13. Sorting – Quick Sort, Merge Sort, Heap Sort
+
+14. Hash table
