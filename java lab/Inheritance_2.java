@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Inheritance_2 {
+ class Employe{
 
 	String name,address;
 	int age,mobno,salary;
@@ -16,6 +16,9 @@ public class Inheritance_2 {
 				           "\n phone no :"+mobno+
 				           "\n Address :"+address);
 	}
+}
+
+public class Inheritance_2 {
 	
 	public static void main(String[] args) {
 		Scanner cin = new Scanner(System.in);
@@ -27,8 +30,9 @@ public class Inheritance_2 {
 		obj1.printsalary();
 		
 		System.out.println("Enter the details of manager as name,address,age,phone no,salary");
-	    name=cin.nextLine();
-	    address=cin.nextLine();
+		
+	    name=cin.next();
+	    address=cin.next();
 	    age=cin.nextInt();
 	    mobno=cin.nextInt();
 	    salary=cin.nextInt();
@@ -38,7 +42,7 @@ public class Inheritance_2 {
 	}
 }
 
-class officer extends Inheritance_2
+class officer extends Employe
 {   Scanner cin = new Scanner(System.in);
 	String spec;
 	officer (String name,String address,int age,int mobno,int salary)
@@ -47,9 +51,9 @@ class officer extends Inheritance_2
 		this.age=age;
 		this.mobno=mobno;
 		this.address=address;
+		this.salary=salary;
 		System.out.println("Enter Specialization : ");
 		this.spec=cin.nextLine();
-		this.salary=salary;
 		display();
 		print_spec();
 	}
@@ -59,15 +63,15 @@ class officer extends Inheritance_2
 	}
 }
 
-class manager extends Inheritance_2
+class manager extends Employe
 {   Scanner cin = new Scanner(System.in);
 	String dept;
 	manager (String name,String address,int age,int mobno,int salary)
 	{
 		this.name=name;
+		this.address=address;
 		this.age=age;
 		this.mobno=mobno;
-		this.address=address;
 		System.out.println("Enter Department : ");
 		this.dept=cin.nextLine();
 		this.salary=salary;
