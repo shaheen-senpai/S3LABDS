@@ -1,6 +1,14 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
 #include<stdio.h>
 #include<malloc.h>
 #include<stdlib.h>
+#include<limits.h>
 
 #define NODE struct node
 
@@ -24,7 +32,7 @@ int main()
     polydisplay(eq1);polydisplay(eq2);
 
     eqprod=polyprod(eq1,eq2);
-
+    printf("THE PRODUCT OF THE POLYNOMIAL EQUALS :\n");
     polydisplay(eqprod);
     return 0;
 }
@@ -76,7 +84,7 @@ void addnode(NODE *ptr,int coeff,int exp){
 NODE* polyprod(NODE *eq1,NODE *eq2){
     int loop=0;
     NODE *head=(NODE*)malloc(sizeof(NODE));
-    head->coeff=100;head->exp=100;head->next=NULL;
+    head->coeff=INT_MAX;head->exp=INT_MAX;head->next=NULL;
     for(NODE *a=eq1;a!=NULL;a=a->next){
         for(NODE *b=eq2;b!=NULL;b=b->next){
             int coeff=(a->coeff)*(b->coeff);
