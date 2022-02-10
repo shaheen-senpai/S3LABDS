@@ -75,7 +75,7 @@ void addnode(NODE *ptr,int coeff,int exp){
 }
 
 NODE* polyprod(NODE *eq1,NODE *eq2){
-    int loop=0;
+    
     NODE *head=(NODE*)malloc(sizeof(NODE));
     head->coeff=INT_MAX;head->exp=INT_MAX;head->next=NULL;
     for(NODE *a=eq1;a!=NULL;a=a->next){
@@ -84,7 +84,7 @@ NODE* polyprod(NODE *eq1,NODE *eq2){
             int exp=(a->exp)+(b->exp);
             NODE *ptr=head;
            //printf("%dx^%d\n",coeff,exp);
-            while(ptr!=NULL && (ptr->exp)>exp){
+            while(ptr!=NULL){
                 //printf("%dx^%d\n",ptr->coeff,ptr->exp);
                 if(ptr->next==NULL){
                     addnode(ptr,coeff,exp);
