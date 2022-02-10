@@ -1,3 +1,10 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
 #include<stdio.h>
 #include<malloc.h>
 #include<stdlib.h>
@@ -83,9 +90,10 @@ NODE* polyprod(NODE *eq1,NODE *eq2){
             int coeff=(a->coeff)*(b->coeff);
             int exp=(a->exp)+(b->exp);
             NODE *ptr=head;
-           //printf("%dx^%d\n",coeff,exp);
+                                                                //printf("%dx^%d  cur\n",coeff,exp);
             while(ptr!=NULL){
-                //printf("%dx^%d\n",ptr->coeff,ptr->exp);
+                                                                //polydisplay(head->next);
+                                                                //printf("%dx^%d  nxt\n",ptr->coeff,ptr->exp);
                 if(ptr->next==NULL){
                     addnode(ptr,coeff,exp);
                     break;
