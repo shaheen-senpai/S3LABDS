@@ -1,4 +1,5 @@
 //tito_uyir
+//direct insertion of node 
 #include<stdio.h>
 
 int G[10][10],visited[10],n;
@@ -41,19 +42,20 @@ void main()
   printf("Enter number of vertices:");
   scanf("%d",&n);
   
-    for(int i=0;i<n;i++){
+  /* for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             scanf("%d",&G[i][j]);
         }
-    }
-  /*for(int i=0;i<n;i++){
+    }*/
+
+  for(int i=0;i<n;i++){
   	int neigh;
   	printf("Enter the neigbhours of %d:",i);
   	scanf("%d",&neigh);
   	while(neigh!=-1){
   		G[i][neigh]=1;
   		scanf("%d",&neigh);}		
-  }*/
+  }
   
   do
     { 
