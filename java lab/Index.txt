@@ -67,11 +67,15 @@ Total Score=66.5
 18) Write a Java program to demonstrate the use of garbage collector.
 19) Write a Java program that shows the usage of try, catch, throws and finally.
 20) Write a Java program that shows how to create a user-defined exception.
+
 21) Write a Java program that reads from a file and writes to a file by handling all file related exceptions.(Using FileInputStream and FileOutputStream classes)
+
 22) Write a Java program that reads a line of integers, and then displays each integer, and the sum of all the integers (Use String Tokenizer class of java.util).
 
 23) Write a Java program that reads a file and displays the file on the screen, with a line number before each line.
-24) Write a Java program with reader/writer class that displays the number of characters, lines and words in a text file.
+
+24) Write a Java program with reader/writer class that displays the number of characters, 
+lines and words in a text file.
 
 25) Write a java program for the following:
  1)     Create a doubly linked list of elements. 
@@ -79,7 +83,9 @@ Total Score=66.5
  3)     Display the contents of the list after deletion.
 
 26) Write a Java program that implements Quick sort algorithm for sorting a list of names in ascending order.
+
 27) Write a Java program that implements the binary search algorithm.
+
 28) Write a Java program that implements a multi-threaded program which has three threads. 
 First thread generates a random integer every 1 second. If the value is even, second thread computes the square of the number and prints. 
 If the value is odd the third thread will print the value of cube of the number. Use thread Synchronization.
