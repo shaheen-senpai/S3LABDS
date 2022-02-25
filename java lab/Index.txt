@@ -72,3 +72,20 @@ Total Score=66.5
 
 23) Write a Java program that reads a file and displays the file on the screen, with a line number before each line.
 24) Write a Java program with reader/writer class that displays the number of characters, lines and words in a text file.
+
+25) Write a java program for the following:
+ 1)     Create a doubly linked list of elements. 
+ 2)     Delete a given element from the above list.
+ 3)     Display the contents of the list after deletion.
+
+26) Write a Java program that implements Quick sort algorithm for sorting a list of names in ascending order.
+27) Write a Java program that implements the binary search algorithm.
+28) Write a Java program that implements a multi-threaded program which has three threads. 
+First thread generates a random integer every 1 second. If the value is even, second thread computes the square of the number and prints. 
+If the value is odd the third thread will print the value of cube of the number. Use thread Synchronization.
+
+29) Write a Java program to create two threads: One for displaying all odd number between 1 and 100 and second thread for displaying all even numbers between 1 and 100.
+
+30) Write a Java program that works as a simple calculator. Arrange Buttons for digits and the + - * % operations properly. Add a text field to display the result. Handle any possible exceptions like divide by zero. Use Java Swing.
+
+31) Write a Java program that simulates a traffic light. The program lets the user select one of three lights: red, yellow, or green. When a radio button is selected, the light is turned on, and only one light can be on at a time. No light is on when the program starts.
