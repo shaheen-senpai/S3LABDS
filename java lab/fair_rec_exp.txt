@@ -71,3 +71,49 @@ Total Score=66.5
 Write a Java program to demonstrate the use of garbage collector.
 14) Exception Handling 
 Write a Java program that shows the usage of try, catch, throws and finally.
+
+15) File Handling using FileInputStream and FileOutputStream classes
+Write a Java program that reads from a file and writes to a file by handling all file related exceptions.
+(Using FileInputStream and FileOutputStream classes) 
+
+16) Read and Display File with Line Number
+Write a Java program that reads a file and displays the file on the screen, with a line number before
+each line.
+
+17) File Handling using FileReader and FileWriter classes
+Write a Java program using reader/writer class that displays the number of characters, lines and
+words in a text file.
+
+18) String Tokenizer
+Write a Java program that reads a line of integers, and then displays each integer, and the
+sum of all the integers (Use String Tokenizer class of java.util).
+
+19) Doubly Linked List
+Write a java program for the following:
+1) Create a doubly linked list of elements.
+2) Delete a given element from the above list.
+3) Display the contents of the list after deletion.
+
+20) Quick sort
+Write a Java program that implements Quick sort algorithm for sorting a list of names in ascending
+order.
+
+21) Square and Cube of a Number using Thread Synchronization
+Write a Java program that implements a multi-threaded program which has three threads. First thread
+67generates a random integer every 1 second. If the value is even, second thread computes the
+square of the number and prints. If the value is odd the third thread will print the value of cube of the
+number. Use thread Synchronization.
+
+22) Displaying odd and even number using MultiThreading
+Write a Java program to create two threads: One for displaying all odd number between 1 and 100
+and second thread for displaying all even numbers between 1 and 100.
+
+23) Simple Calculator using Swing
+Write a Java program that works as a simple calculator. Arrange Buttons for digits and the + - * %
+operations properly. Add a text field to display the result. Handle any possible exceptions like divide
+by zero. Use Java Swing.
+
+24) Traffic Light Simulation using Swing
+Write a Java program that simulates a traffic light. The program lets the user select one of three lights:
+red, yellow, or green. When a radio button is selected, the light is turned on, and only one light can be
+on at a time. No light is on when the program starts.
