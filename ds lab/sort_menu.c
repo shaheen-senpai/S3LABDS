@@ -91,7 +91,7 @@ void heap(int arr[],int n){
         
     for(i=n;i>=2;i--){
         swap(arr,1,i);
-    prec(arr,1,i-1);
+        prec(arr,1,i-1);
     }
 }
 
